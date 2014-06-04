@@ -1,5 +1,6 @@
+
 .pmode {
-    display:none; !important
+    display:none !important;
 }
 
 .presentation_mode h1{
@@ -10,5 +11,21 @@
     display:none; !important
 }
 
-.presentation_mode {
+.presentation_mode #notebook {
+  font-size: 1.65em;
+  background-color: #fafafa;
+}
+
+.presentation_mode .text_cell_render {
+  font-size: 1.1em;
+}
+
+.presentation_mode .text_cell_render img {
+  max-height: 600px;
+}
+
+.presentation_mode .text_cell_render,
+.presentation_mode li,
+.presentation_mode pre {
+    line-height: 1.3;
 }
